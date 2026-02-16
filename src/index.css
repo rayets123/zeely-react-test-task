@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Italian Plate No2 Expanded - font files in public/fonts/ */
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Thin.ttf") format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Thin Italic.ttf") format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Ultralight.ttf") format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Ultralight Italic.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Extralight.ttf") format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Extralight Italic.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Light.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Light Italic.ttf") format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Italic.ttf") format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Medium.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Medium Italic.ttf") format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Demibold.ttf") format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Demibold Italic.ttf") format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Bold.ttf") format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Bold Italic.ttf") format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Extrabold.ttf") format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Extrabold Italic.ttf") format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Black.ttf") format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Italian Plate No2 Expanded';
+  src: url("/fonts/Italian Plate No2 Expanded Black Italic.ttf") format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.75rem;
+  }
+
+}
+
+@layer base {
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-italian-plate;
+    font-size: 14px;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@layer utilities {
+  .font-italian-plate {
+    font-family: 'Italian Plate No2 Expanded', system-ui, sans-serif;
+  }
+  .sidebar-scroll {
+    overflow-y: overlay;
+    border-right: 4px solid #fff;
+  }
+  .sidebar-scroll::-webkit-scrollbar {
+    width: 4px;
+  }
+  .sidebar-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .sidebar-scroll::-webkit-scrollbar-thumb {
+    background: rgba(202, 212, 221, 1);
+    border-radius: 10px;
+    min-height: 134px;
+  }
+  .sidebar-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(202, 212, 221, 1);
+  }
+}

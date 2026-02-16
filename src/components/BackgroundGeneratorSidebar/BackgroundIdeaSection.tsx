@@ -63,7 +63,7 @@ export function BackgroundIdeaSection() {
             type="button"
             onClick={handleRegenerate}
             aria-label="Regenerate background idea"
-            className="flex items-center gap-1 text-xs font-semibold leading-[240%] text-black cursor-pointer hover:opacity-80 transition-opacity"
+            className="flex items-center gap-1 text-xs font-semibold leading-[230%] text-black cursor-pointer hover:opacity-80 transition-opacity"
           >
             <img
               src="/assets/sparkles-icon.svg"

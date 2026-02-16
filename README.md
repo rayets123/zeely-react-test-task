@@ -2,6 +2,8 @@
 
 Test assignment — implementation of an avatar background generation sidebar.
 
+**Live Demo:** [https://zeely-react-test-task.vercel.app/](https://zeely-react-test-task.vercel.app/)
+
 ## Features
 
 - **Change background** button — opens the sidebar
